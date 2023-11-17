@@ -337,6 +337,7 @@ p:last-child:after {
 
 .form-title {
   text-align: center;
+  font-size: large;
 }
 .form-container {
   text-align: center;
