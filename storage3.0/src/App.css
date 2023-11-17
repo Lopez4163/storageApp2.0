@@ -376,8 +376,14 @@ table th, table td {
   overflow-y: auto; /* Enable vertical scrollbar when content exceeds the container height */
 }
 
+.powered-by {
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
 
-/* ... (Other styles remain unchanged) ... */
+.icon {
+  height: 30px;
+}
 
 
 
@@ -404,13 +410,6 @@ table th, table td {
   height: 25px;
   width: 100px;
 }
-
-
-
-
-
-
-
 
 
 
