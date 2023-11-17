@@ -32,7 +32,7 @@ function App() {
 
         <div className="container">
             <div className="powered-by">
-                Powered By: <FontAwesomeIcon icon={faReact} className="icon" />
+                <p className='powered-by-text'>Powered By: <FontAwesomeIcon icon={faReact} className="icon" /></p>
             </div>
             <div className="form-container">
                 <InventoryForm addItem={addItem}/>

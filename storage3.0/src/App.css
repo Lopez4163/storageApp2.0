@@ -381,7 +381,16 @@ table th, table td {
   margin-top: -20px;
 }
 
+.powered-by-text {
+  padding-bottom: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+
 .icon {
+  padding-bottom: 20px;
+  margin-top: -20px;
   height: 30px;
 }
 
