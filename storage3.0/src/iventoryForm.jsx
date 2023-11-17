@@ -23,7 +23,7 @@ function InventoryForm({ addItem }) {
 
   return (
     <div className="form-container">
-      <h2 className="form-title">Add New Item</h2>
+      <h2 className="form-title">W3LC0ME T0 MYST0RAG3</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Item Name:
@@ -61,7 +61,9 @@ function InventoryForm({ addItem }) {
             required
           />
         </label>
-        <button type="submit">Add Item</button>
+        <div className="add-item-button">
+            <button>Add Item</button>
+        </div>
       </form>
     </div>
   )

@@ -335,13 +335,94 @@ p:last-child:after {
   }
 }
 
+
+/* FORM CONTAINER STYLES*/
 .form-title {
-  text-align: center;
-  font-size: large;
+  padding-bottom: 30px;
+  margin-top: -5px ;
 }
+
 .form-container {
+  padding-top: 10px;
+  align-items: center;
   text-align: center;
 }
+/* TABLE CONTAINER STYLING */
+
+.table-title {
+  padding-bottom:30px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table th, table td {
+  padding: 14px;
+  border: 2px dashed ; /* Use border instead of border-style */
+  text-align: center; /* Center the text in both header and data cells */
+  border-color: #00cc00;
+}
+
+.table-title {
+  padding-top: 60px;
+
+}
+
+.table-scroll {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrollbar when content exceeds the container height */
+}
+
+
+/* ... (Other styles remain unchanged) ... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add-item-button {
+  margin-top: 20px; /* Adjust as needed for spacing */
+  text-align: center; /* Center the button within its container */
+}
+
+.add-item-button button {
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.form-title,
+.table-title {
+  text-align: center;
+  /* Additional styles for titles */
+}
+
+
+
+
 
 input {
   background: #78e461;
@@ -350,10 +431,4 @@ button {
   background: #78e461;
 }
 
-/* TABLE STYLING*/
-table,
-th,
-td {
-  border: 1px solid;
-  width: 60%;
-}
+
