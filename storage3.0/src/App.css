@@ -1,3 +1,4 @@
+/******DIFFERENT LAYOUT ****
 /*
 :root {
   --black: #000000;
@@ -244,7 +245,7 @@ th {
     }
   }
 }
-
+/******DIFFERENT LAYOUT ****
 */
 
 body {
@@ -253,12 +254,7 @@ body {
   overflow: hidden;
   padding: 0;
 }
-input {
-  background: #78e461;
-}
-button {
-  background: #78e461;
-}
+
 .screen {
   animation: colorPulse 5s infinite ease-in-out;
   background-image: radial-gradient(#444, #111);
@@ -337,4 +333,26 @@ p:last-child:after {
   50% {
     opacity: 0;
   }
+}
+
+.form-title {
+  text-align: center;
+}
+.form-container {
+  text-align: center;
+}
+
+input {
+  background: #78e461;
+}
+button {
+  background: #78e461;
+}
+
+/* TABLE STYLING*/
+table,
+th,
+td {
+  border: 1px solid;
+  width: 60%;
 }
