@@ -388,16 +388,20 @@ table th, table td {
 }
 
 .powered-by {
-  padding-bottom: 50px;
-  margin-top: -50px;
+  padding-bottom: 90px;
+  margin-top: -35px;
 }
 
 .powered-by-text {
+  font-size: 18px;
   text-align: left;
   margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
 }
 
 .icon {
+        height: 30px;
 
 }
 
@@ -406,12 +410,17 @@ table th, table td {
 .add-item-button {
   margin-top: 20px; /* Adjust as needed for spacing */
   text-align: center; /* Center the button within its container */
+  position: relative;
+  top: 40px;
 }
 
 .add-item-button button {
   border-radius: 5px;
-  height: 25px;
+  height: 35px;
   width: 100px;
+  font-family: "Fira Mono", monospace;
+  font-weight: bold ;
+
 }
 
 
