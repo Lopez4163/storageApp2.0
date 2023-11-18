@@ -14,7 +14,7 @@ const InventoryTable = ({ items, deleteItem, editItem }) => {
   return (
     <div className="table-container">
       <h2 className="table-title">1NV3NT0RY TABL3</h2>
-      <div className="table-scroll">
+      <div className="table-scroll-container">
       <table>
         <thead>
           <tr>

@@ -338,13 +338,18 @@ p:last-child:after {
 
 /* FORM CONTAINER STYLES*/
 .form-title {
-  height: 40px;
+  /*margin-top: -100px;*/
+  /*padding-top: 60px;*/
+  /*padding-bottom:30px;*/
+
 }
 
 .form-container {
   padding-bottom: 10px;
   align-items: center;
   text-align: center;
+  margin-top: -100px;
+
 }
 /* TABLE CONTAINER STYLING */
 
@@ -353,7 +358,12 @@ p:last-child:after {
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  margin: auto;
+  overflow: hidden;
+
+}
+
+.table-container {
+  overflow: hidden;
 }
 
 table th, table td {
@@ -367,39 +377,29 @@ table th, table td {
   padding-top: 60px;
   padding-bottom:30px;
 
-
 }
 
-.table-scroll {
-  max-height: 300px; /* Adjust the height as needed */
-  overflow-y: auto; /* Enable vertical scrollbar when content exceeds the container height */
+
+  .table-scroll-container {
+  max-height: 300px; /* Adjust the max height as needed */
+  overflow-y: auto;
+  position: relative;
+
 }
 
 .powered-by {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  margin-top: -50px;
 }
 
 .powered-by-text {
   text-align: left;
+  margin-top: 10px;
 }
 
 .icon {
-  padding-bottom: 20px;
-  height: 30px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
