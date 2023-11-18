@@ -338,20 +338,17 @@ p:last-child:after {
 
 /* FORM CONTAINER STYLES*/
 .form-title {
-  padding-bottom: 30px;
-  margin-top: -5px ;
+  height: 40px;
 }
 
 .form-container {
-  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
   text-align: center;
 }
 /* TABLE CONTAINER STYLING */
 
-.table-title {
-  padding-bottom:30px;
-}
+
 
 .table-container table {
   width: 100%;
@@ -368,6 +365,8 @@ table th, table td {
 
 .table-title {
   padding-top: 60px;
+  padding-bottom:30px;
+
 
 }
 
@@ -378,19 +377,14 @@ table th, table td {
 
 .powered-by {
   padding-bottom: 20px;
-  margin-top: -20px;
 }
 
 .powered-by-text {
-  padding-bottom: 20px;
   text-align: left;
-  padding-bottom: 20px;
-  margin-top: -20px;
 }
 
 .icon {
   padding-bottom: 20px;
-  margin-top: -20px;
   height: 30px;
 }
 
