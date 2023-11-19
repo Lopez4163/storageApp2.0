@@ -422,6 +422,28 @@ table th, table td {
   font-weight: bold ;
 
 }
+.add-item-button :hover {
+  background-color: #00cc00;
+  cursor: cell;
+  box-shadow: black;
+
+}
+
+.table-button  {
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  font-family: "Fira Mono", monospace;
+  font-weight: bold ;
+
+}
+
+.table-button:hover {
+  background-color: #00cc00;
+  cursor: cell;
+}
+
+
 
 
 
@@ -442,4 +464,6 @@ button {
   background: #78e461;
 }
 
-
+label {
+  padding-left: 20px;
+}

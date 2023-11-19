@@ -82,11 +82,11 @@ const InventoryTable = ({ items, deleteItem, editItem }) => {
               </td>
               <td>
                 {editableIndex === index ? (
-                  <button onClick={() => handleSave(index)}>Save</button>
+                  <button className="table-button" onClick={() => handleSave(index)}>Save</button>
                 ) : (
                   <>
-                    <button onClick={() => handleEdit(index)}>Edit</button>
-                    <button onClick={() => deleteItem(index)}>Delete</button>
+                    <button className="table-button" onClick={() => handleEdit(index)}>Edit</button>
+                    <button className="table-button" onClick={() => deleteItem(index)}>Delete</button>
                   </>
                 )}
               </td>

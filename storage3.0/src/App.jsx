@@ -7,8 +7,8 @@ import "./app.css";
 
 function App() {
     const [inventoryItems, setInventoryItems] = useState([
-        {id: 1, itemName: "Default Item 1", quantity: 10, location: "Warehouse A", pricePerUnit: 5.0},
-        {id: 2, itemName: "Default Item 2", quantity: 20, location: "Warehouse B", pricePerUnit: 8.0},
+        {id: 1, itemName: "Github Profile", quantity: 1, location: "https://github.com/Lopez4163", pricePerUnit: 0.1},
+        {id: 2, itemName: "Instagram", quantity: 1, location: "nickk_adre", pricePerUnit: 0.0},
         // Add more default items as needed
     ]);
 
