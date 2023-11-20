@@ -1,9 +1,9 @@
 {
+  "homepage": "https://Lopez4163.github.io/storageApp2.0",
   "name": "storage3.0",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
