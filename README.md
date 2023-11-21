@@ -11,10 +11,10 @@
 
 ## 🍩 Features
 
- ---------- Add and remove storage items
- - Edit item details
- - Visualize storage inventory
- - Search and filter functionality
+ -- Add and remove storage items
+ -- Edit item details
+ -- Visualize storage inventory
+ -- Search and filter functionality
 
 ## 🃏 Summary
 
