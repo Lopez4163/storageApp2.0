@@ -5,19 +5,20 @@
 <div align="center">
 
 ## 👾 Technologies
-- Frontend: React.js
-- Styling: CSS, Styled Components
+ Frontend: React.js
+ Styling: CSS, Styled Components
 
 
 ## 🍩 Features
 
-- Add and remove storage items
-- Edit item details
-- Visualize storage inventory
-- Search and filter functionality
+ Add and remove storage items
+ Edit item details
+ Visualize storage inventory
+ Search and filter functionality
 
 ## 🃏 Summary
 
-- This React.js application empowers users to seamlessly manage their data through a dynamic table interface. Users can effortlessly add, edit, and delete items, ensuring a smooth and interactive experience in organizing and maintaining their information."
+  This React.js application empowers users to seamlessly manage their data through a dynamic table interface. Users can effortlessly add, edit, and delete items, ensuring a smooth and 
+  interactive experience in organizing and maintaining their information."
 
 </div>
