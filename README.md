@@ -2,6 +2,7 @@
 
 <h1 align="center">📦 Inventory App 📦</h1> 
 
+<div allign="center">
 
 ## 👾 Technologies
 - Frontend: React.js
@@ -18,3 +19,5 @@
 ## 🃏 Summary
 
 - This React.js application empowers users to seamlessly manage their data through a dynamic table interface. Users can effortlessly add, edit, and delete items, ensuring a smooth and interactive experience in organizing and maintaining their information."
+
+</div>
