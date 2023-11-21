@@ -1,4 +1,6 @@
-![Header Image](https://raw.githubusercontent.com/Lopez4163/storageApp2.0/main/storage3.0/assets/demo.gif)
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/Lopez4163/storageApp2.0/main/storage3.0/assets/demo.gif" alt="Header Image">
+</div>
 
 <h1 align="center">📦 Inventory App 📦</h1> 
 <h2  align="center">https://lopez4163.github.io/storageApp2.0/</h2>
