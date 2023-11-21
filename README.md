@@ -3,7 +3,7 @@
 <h1 align="center">📦 Inventory App 📦</h1> 
 
 
-##👾 Technologies
+## 👾 Technologies
 - Frontend: React.js
 - Styling: CSS, Styled Components
 
