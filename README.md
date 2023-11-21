@@ -1,3 +1,4 @@
 # storageApp2.0
-![Header](https://raw.githubusercontent.com/Lopez4163/storageApp2.0/assets/64043616/0d4cd71b-be00-44b6-bf5b-f51b3d6a6de3/Screenshot%202023-11-21%20at%209%2051%2003%E2%80%AFAM.png)
 
+
+<img width="1440" alt="Screenshot 2023-11-21 at 9 51 03 AM" src="https://github.com/Lopez4163/storageApp2.0/assets/64043616/f6842189-d358-4f5b-bcf4-c15632caa9cc">
