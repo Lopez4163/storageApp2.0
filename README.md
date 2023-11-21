@@ -1,4 +1,4 @@
-<div style="text-align:center;">
+<div align='center'>
   <img src="https://raw.githubusercontent.com/Lopez4163/storageApp2.0/main/storage3.0/assets/demo.gif" alt="Header Image">
 </div>
 
