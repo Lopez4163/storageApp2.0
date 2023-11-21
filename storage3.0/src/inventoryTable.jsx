@@ -95,9 +95,7 @@ const InventoryTable = ({ items, deleteItem, editItem }) => {
         </tbody>
       </table>
     </div>
-
     </div>
   )
 }
-
 export default InventoryTable

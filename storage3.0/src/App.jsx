@@ -43,7 +43,6 @@ function App() {
                     deleteItem={deleteItem}
                     editItem={editItem}
                 />
-
             </div>
         </div>
     );
