@@ -5,8 +5,8 @@
 <div align="center">
 
 ## 👾 Technologies
- -Frontend: React.js
- -Styling: CSS, Styled Components
+ - Frontend: React.js
+ - Styling: CSS, Styled Components
 
 
 ## 🍩 Features
