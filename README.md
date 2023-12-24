@@ -1,12 +1,14 @@
-![Header Image](https://raw.githubusercontent.com/Lopez4163/storageApp2.0/main/storage3.0/assets/Screenshot%202023-11-21%20at%209.51.03%E2%80%AFAM.png)
+<div align='center'>
+  <img src="https://raw.githubusercontent.com/Lopez4163/storageApp2.0/main/storage3.0/assets/demo.gif" alt="Header Image">
+</div>
 
 <h1 align="center">📦 Inventory App 📦</h1> 
 <h2  align="center">https://lopez4163.github.io/storageApp2.0/</h2>
 <div align="center">
 
 ## 👾 Technologies
- - Frontend: React.js
- - Styling: CSS, Styled Components
+ - React.js
+ - CSS
 
 
 ## 🍩 Features
