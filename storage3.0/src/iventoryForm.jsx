@@ -5,7 +5,6 @@ function InventoryForm({ addItem }) {
   const [quantity, setQuantity] = useState("")
   const [location, setLocation] = useState("")
   const [pricePerUnit, setPricePerUnit] = useState("$0.00")
-
   const handleSubmit = event => {
     event.preventDefault()
     const newItem = {

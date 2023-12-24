@@ -9,7 +9,6 @@ function App() {
     const [inventoryItems, setInventoryItems] = useState([
         {id: 1, itemName: "Github Profile", quantity: 1, location: "https://github.com/Lopez4163", pricePerUnit: 0.1},
         {id: 2, itemName: "Instagram", quantity: 1, location: "nickk_adre", pricePerUnit: 0.0},
-        // Add more default items as needed
     ]);
 
     const addItem = newItem => {
