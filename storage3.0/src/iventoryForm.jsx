@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "../src/App.css"
 
 function InventoryForm({ addItem }) {
   const [itemName, setItemName] = useState("")
@@ -23,47 +24,90 @@ function InventoryForm({ addItem }) {
   return (
     <div className="form-container">
       <h2 className="form-title">W3LC0ME T0 MYST0RAG3</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Item Name:
-          <input
-            type="text"
-            value={itemName}
-            onChange={event => setItemName(event.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Quantity:
-          <input
-            type="number"
-            value={quantity}
-            onChange={event => setQuantity(event.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Location:
-          <input
-            type="text"
-            value={location}
-            onChange={event => setLocation(event.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Price per Unit:
-          <input
-            type="text"
-            value={pricePerUnit}
-            onChange={event => setPricePerUnit(event.target.value)}
-            required
-          />
-        </label>
-        <div className="add-item-button">
+      <div className='form-wrapper'>
+        <form onSubmit={handleSubmit}>
+          <label>
+            Item Name:
+            <input
+                type="text"
+                value={itemName}
+                onChange={event => setItemName(event.target.value)}
+                required
+            />
+          </label>
+          <label>
+            Quantity:
+            <input
+                type="number"
+                value={quantity}
+                onChange={event => setQuantity(event.target.value)}
+                required
+            />
+          </label>
+          <label>
+            Location:
+            <input
+                type="text"
+                value={location}
+                onChange={event => setLocation(event.target.value)}
+                required
+            />
+          </label>
+          <label>
+            Price per Unit:
+            <input
+                type="text"
+                value={pricePerUnit}
+                onChange={event => setPricePerUnit(event.target.value)}
+                required
+            />
+          </label>
+          <div className="add-item-button">
             <button>Add Item</button>
-        </div>
-      </form>
+          </div>
+        </form>
+      </div>
+      {/*<form onSubmit={handleSubmit}>*/}
+      {/*  <label>*/}
+      {/*    Item Name:*/}
+      {/*    <input*/}
+      {/*      type="text"*/}
+      {/*      value={itemName}*/}
+      {/*      onChange={event => setItemName(event.target.value)}*/}
+      {/*      required*/}
+      {/*    />*/}
+      {/*  </label>*/}
+      {/*  <label>*/}
+      {/*    Quantity:*/}
+      {/*    <input*/}
+      {/*      type="number"*/}
+      {/*      value={quantity}*/}
+      {/*      onChange={event => setQuantity(event.target.value)}*/}
+      {/*      required*/}
+      {/*    />*/}
+      {/*  </label>*/}
+      {/*  <label>*/}
+      {/*    Location:*/}
+      {/*    <input*/}
+      {/*      type="text"*/}
+      {/*      value={location}*/}
+      {/*      onChange={event => setLocation(event.target.value)}*/}
+      {/*      required*/}
+      {/*    />*/}
+      {/*  </label>*/}
+      {/*  <label>*/}
+      {/*    Price per Unit:*/}
+      {/*    <input*/}
+      {/*      type="text"*/}
+      {/*      value={pricePerUnit}*/}
+      {/*      onChange={event => setPricePerUnit(event.target.value)}*/}
+      {/*      required*/}
+      {/*    />*/}
+      {/*  </label>*/}
+      {/*  <div className="add-item-button">*/}
+      {/*      <button>Add Item</button>*/}
+      {/*  </div>*/}
+      {/*</form>*/}
     </div>
   )
 }

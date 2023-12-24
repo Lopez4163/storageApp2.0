@@ -90,12 +90,6 @@ p:last-child:after {
 
 /***** FORM STYLING *****/
 
-.form-title {
-  /*margin-top: -100px;*/
-  /*padding-top: 60px;*/
-  /*padding-bottom:30px;*/
-}
-
 .form-container {
   padding-bottom: 10px;
   align-items: center;
@@ -136,7 +130,6 @@ label {
 
 
 /***** TABLE STYLING *****/
-
 .table-container {
   overflow: hidden;
 }
@@ -151,14 +144,15 @@ label {
 }
 
 table th, table td {
-  padding: 14px;
-  border: 2px dashed ; /* Use border instead of border-style */
-  text-align: center; /* Center the text in both header and data cells */
+  font: 8px "Fira Mono", monospace;
+  padding: 28px;
+  border: 2px dashed ;
+  text-align: center;
   border-color: #00cc00;
 }
 
 .table-scroll-container {
-  max-height: 300px; /* Adjust the max height as needed */
+  max-height: 300px;
   overflow-y: auto;
   position: relative;
 }
@@ -201,9 +195,25 @@ table th, table td {
   text-align: center;
 }
 
-/*****MEDIA QU *****/
+@media screen and (max-width: 780px) {
+  table {}
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .table-container table {
+    font-size: 7px;
+  }
+  .table-button {
+    font-size: 6px;
+    height: 25px;
+    width: 35px;
+  }
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .table-container table {
     font-size: 7.1px;
   }
