@@ -23,4 +23,17 @@
   - This React.js application empowers users to seamlessly manage their data through a dynamic table interface. Users can effortlessly add, edit, and delete items, ensuring a smooth and 
   interactive experience in organizing and maintaining their information."
 
+## 🃏 Database Version
+<div align='center'>
+<img width="340" alt="Screenshot 2023-12-24 at 2 55 48 PM" src="https://github.com/Lopez4163/storageApp2.0/assets/64043616/ee3bb2ac-98f7-4760-aed2-545ce7bad658">
+
+</div>
+
+  - This React.js application empowers users to seamlessly manage their data through a dynamic table interface. Users can effortlessly add, edit, and delete items, ensuring a smooth and 
+  interactive experience in organizing and maintaining their information."
+
+
+
+
+
 </div>
