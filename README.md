@@ -17,7 +17,7 @@
  - Edit item details
  - Visualize storage inventory
  - Search and filter functionality
- - MYSQL DB capability
+   MYSQL DB capability
 
 ## 🃏 Summary
 
