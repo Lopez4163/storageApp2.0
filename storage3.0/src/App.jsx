@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import InventoryForm from "./iventoryForm";
-import InventoryTable from "./inventoryTable";
+import InventoryForm from "./InventoryForm.jsx";
+import InventoryTable from "./InventoryTable.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import "./app.css";
