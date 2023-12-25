@@ -25,6 +25,7 @@
 
 ## 🃏 Database Version
 <img width="354" alt="Screenshot 2023-12-24 at 2 59 11 PM" src="https://github.com/Lopez4163/storageApp2.0/assets/64043616/8d3d9d4a-8d91-4ad4-a371-93621d1a93d9">
+<p>run the databaseversion for the front end and backend directory for the database</p>
 </div>
   - Engineered an interactive storage application using Vite, React, CSS, and HTML for the front end, and Node.js with MySQL for the backend. The application, designed for seamless user interaction, enables users to store and manage item data in a MySQL database.
 </div>
